@@ -1,0 +1,59 @@
+body {
+    background-color: #468585;
+    padding: 0;
+    margin: 0;
+  }
+
+h1 {
+    font-family: "Luckiest Guy", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: #C4DAD2;
+    margin: 0;
+    margin-top: 50px;
+    text-shadow: 4px 2px 5px black;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  
+p, footer {
+    font-family: "Indie Flower", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFE9D0;
+  }
+
+.players {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+  }
+
+.player-1, .player-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding-top: 100px;
+    color: black;
+  }
+  
+  
