@@ -56,4 +56,21 @@ footer {
     color: black;
   }
   
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .container {
+    padding: 50px 0px;
+  }
+  img {
+    width: 100px;
+  }
+
+  footer {
+    margin-top: 200px;
+  }
+}
   
