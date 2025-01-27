@@ -13,6 +13,7 @@ h1 {
     margin: 0;
     margin-top: 50px;
     text-shadow: 4px 2px 5px black;
+    text-align: center;
   }
 
 .container {
@@ -66,6 +67,7 @@ footer {
   .container {
     padding: 50px 0px;
   }
+  
   img {
     width: 100px;
   }
